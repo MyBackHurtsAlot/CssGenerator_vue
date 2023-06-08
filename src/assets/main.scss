@@ -1,0 +1,24 @@
+@import './reset.scss';
+:root{
+  --var-color-text:#CBE4DE; 
+  --var-color-highlight:#0E8388;
+  --var-color-midTone:#2E4F4F;
+  --var-color-background:#2C3333;
+}
+
+html,
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  color:var(--var-color-text);
+  margin: 10px;
+  background-color: var(--var-color-background);
+}
+
+@mixin hoverStyle{
+  transition: letter-spacing 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+    &:hover {
+      letter-spacing: 1.2px;
+    }
+  
+}
