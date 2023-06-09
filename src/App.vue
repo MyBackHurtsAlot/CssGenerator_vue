@@ -1,11 +1,12 @@
 <script setup lang="ts">
-import HomeIndex from './components/HomePage/HomeIndex.vue';
-import HeaderIndex from "./components/Header/HeaderIndex.vue"
+import { RouterView } from "vue-router";
+import HomeView from "./views/HomeView.vue";
+import HeaderView from "./views/HeaderView.vue"
 </script>
 
 <template>
-  <HeaderIndex/>
-  <HomeIndex/>
+  <HeaderView/>
+  <RouterView/>
 </template>
 
 <style>

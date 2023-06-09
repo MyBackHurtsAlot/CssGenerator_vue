@@ -15,6 +15,6 @@
 .signIn{
     font-size:1rem;
     cursor: pointer;
-    @include hoverStyle;
+    @include textHoverStyle;
 }
 </style>

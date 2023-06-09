@@ -1,10 +1,10 @@
 <script setup lang="ts">
-
+import ColorPicker from '@/assets/ColorPicker.vue';
 </script>
 
 <template>
     <div>
-        Home
+        <ColorPicker/>
     </div>
 </template>
 
